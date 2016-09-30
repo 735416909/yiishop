@@ -2,7 +2,7 @@
 
 	$key = 'myapp' ;
 
-	$method = $_REQUEST ['METHOD_NAME'] ; 
+	$method = $_REQUEST ['REQUEST_METHOD'] ; 
 
 	if ( 'POST' !== strtoupper($method)) {
 		exit('NO ACCESS DENY 1');
