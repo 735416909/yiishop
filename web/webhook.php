@@ -27,4 +27,5 @@
 
 	if(function_exists('exec')){
 		exec('cd /home/wwwroot/a.zhangmj.com/yiishop/ && git pull') ;  
+		echo 'exec Success' ;
 	}
