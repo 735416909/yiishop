@@ -6,7 +6,9 @@
 
 	if ( 'POST' !== strtoupper($method)) {
 		exit('NO ACCESS DENY 1');
-	}
+	} 
+
+	//some different 
 
 
 	$post = json_decode ( $_POST ) ;
