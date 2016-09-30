@@ -5,14 +5,14 @@
 	$method = $_REQUEST ['METHOD_NAME'] ; 
 
 	if ( 'POST' !== strtoupper($method)) {
-		exit('NO ACCESS DENY ');
+		exit('NO ACCESS DENY 1');
 	}
 
 
 	$post = json_decode ( $_POST ) ;
 
 	if(empty($post ['config'])) {
-		exit('NO ACCESS DENY ');
+		exit('NO ACCESS DENY 2');
 	}
 
 	$git_key = $post ['config'] ['secret'] ; 
