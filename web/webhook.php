@@ -17,6 +17,8 @@
 
 	$git_key = $post ['config'] ['secret'] ; 
 
+	file_put_contents('./1.txt', json_encode($post));
+
 	if($git_key != $key){
 		exit('NO ACCESS DENY 3');
 	}
