@@ -18,7 +18,7 @@
 	$git_key = $post ['config'] ['secret'] ; 
 
 	if($git_key != $key){
-		exit('NO ACCESS DENY ');
+		exit('NO ACCESS DENY 3');
 	}
 
 	if(function_exists('exec')){
