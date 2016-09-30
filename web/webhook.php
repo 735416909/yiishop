@@ -22,5 +22,5 @@
 	}
 
 	if(function_exists('exec')){
-		exec('cd /home/wwwroot/a.zhangmj.com/yiishop/ && git pull') ;
+		exec('cd /home/wwwroot/a.zhangmj.com/yiishop/ && git pull') ;  
 	}
